@@ -1,0 +1,23 @@
+.counter {
+  background: rgb(93, 9, 121);
+  background: linear-gradient(
+    225deg,
+    rgba(93, 9, 121, 1) 35%,
+    rgba(0, 18, 255, 1) 100%
+  );
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 8px;
+}
+button:active {
+  background-color: blue;
+}
