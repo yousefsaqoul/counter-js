@@ -58,7 +58,7 @@ minus10.addEventListener("click", () => {
 
 minus100.addEventListener("click", () => {
     count -=100;
-    updateDisplay();
+    myErgebnisse();
 })
 
 function myErgebnisse(){
