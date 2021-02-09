@@ -105,13 +105,143 @@ function myLength(){
     let result2 = mySliceString3.concat(  mySliceString4);   // and to
     let result3 = mySliceString5.concat(mySliceString6); // move theather
 
-    console.log(result3)
 
     function myConcat()
     {
 
         document.write(mySliceString1 + '<br>' +  mySliceString2 + '<br>' + mySliceString3 + '<br>' + mySliceString4 + '<br>' + mySliceString5 + '<br>' + mySliceString6) 
-
-
     }
     
+// ..........................end concat.............
+
+
+
+// .......................... indexOf.............
+
+let txt = "How inappropriate to call this planet Earth, when clearly it is Ocean."
+let myH = txt.indexOf("h")
+let myEarth = txt.indexOf("Earth");
+let myMoons = txt.indexOf("Moon");
+
+function hIndexOf()
+{
+    document.write(myH)
+}
+
+function earthIndexOf()
+{
+    document.write(myEarth)
+}
+function moonIndexOf()
+{
+    document.write(myMoons)
+}
+// ........................end.. indexOf.............
+
+
+
+// ........................end.. search.............
+let txt2 = "Blue, green, grey, white, or black; smooth, ruffled, or mountainous; that ocean is not silent"
+    let mySearch = txt2.search(";")
+    let mySearchGreen = txt2.search("green")
+    let mySearchBlue = txt2.search("Blue")
+
+function mySearch1()
+{   
+    document.write(mySearch)
+
+}
+function mySearch2()
+{   
+    document.write(mySearchGreen)
+
+}
+function mySearch3()
+{   
+    document.write(mySearchBlue)
+
+}
+// ........................end.. search.............
+
+
+
+// .......................... substring.............
+let samcoding = "Sam is back from coding school";
+
+let mysubString = samcoding.substring(0 , 3);
+let mysubString2 = samcoding.substring(4 , 6);
+let mysubString3 = samcoding.substring(24 , 31);
+
+
+function sam()
+{   
+    document.write(mysubString )
+
+}
+function is()
+{   
+    document.write(mysubString2 )
+
+}
+function school()
+{   
+    document.write(mysubString3 )
+
+}
+
+
+function samSchool()
+{   
+    document.write(mysubString + '<br>' + mysubString2 + '<br>' + mysubString3)
+
+}
+// ........................end.. substring.............
+
+
+
+
+
+
+
+
+// ..........................toUpperCase.............
+
+let mycase = "Sam is going to coding school"
+    let resu1 = mycase.toUpperCase();
+     let resu2 = mycase.toLowerCase();
+
+
+     sliceCase = mycase.slice(0,4) // ..Sam
+     let resu3 = sliceCase.toUpperCase()
+
+     replaceSam = mycase.replace("Sam is going to coding school", 'SAM IS GOING to SCHOOL')
+     replaceSa = mycase.replace("Sam is going to coding school", 'Sam Is Going To School')
+
+     console.log(resu1)
+     
+
+     function samUP()
+     {
+         document.write(resu1)
+
+     }
+     function samUP2()
+     {
+         document.write(resu2)
+
+     }
+     function samUP3()
+     {
+         document.write(resu3)
+
+     }
+     function samUP4()
+     {
+         document.write(replaceSam)
+
+     }
+     function samUP5()
+     {
+         document.write(replaceSa)
+
+     }
